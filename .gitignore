@@ -1,3 +1,33 @@
-__pycache__/
-*.pyc
+# Secrets and credentials
 .env
+.env.*
+auth.json
+auth.lock
+
+# Generated / runtime data
+state.db
+state.db-shm
+state.db-wal
+logs/
+audio_cache/
+image_cache/
+sessions/
+plans/
+pairing/
+hooks/
+memories/
+workspace/
+cron/output/
+bin/
+*.bak
+*.bak.*
+
+# Artifacts
+*.pyc
+__pycache__/
+.skills_prompt_snapshot.json
+.update_check
+.hermes_history
+models_dev_cache.json
+skills/.usage.json*
+distribution.yaml.txt

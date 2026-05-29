@@ -1,0 +1,243 @@
+{
+  "jobs": [
+    {
+      "id": "39999575fca4",
+      "name": "Research Step 1: Ingest Articles",
+      "prompt": "Run the `research-roundup` skill and run it for the current `REPORT_TYPE` in /opt/data/profiles/med-research/workspace/REPORT.ini, using the corresponding `REPORT_{REPORT_TYPE}_DATE_FROM` and `REPORT_{REPORT_TYPE}_DATE_TO` values. Under no circumstances are you allowed to edit `REPORT.ini`.",
+      "skills": [
+        "research-roundup"
+      ],
+      "skill": "research-roundup",
+      "model": "deepseek-v4-flash",
+      "provider": "deepseek",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "8 11 * * *",
+        "display": "8 11 * * *"
+      },
+      "schedule_display": "8 11 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-29T00:55:21.482683+00:00",
+      "next_run_at": "2026-05-29T11:08:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": "/opt/data/profiles/med-research",
+      "profile": "med-research"
+    },
+    {
+      "id": "bf0b8423781f",
+      "name": "Research Step 2: Process and Summarize",
+      "prompt": "Run the `research-processor` skill and run it for the current `REPORT_TYPE` in /opt/data/profiles/med-research/workspace/REPORT.ini, using the corresponding `REPORT_{REPORT_TYPE}_DATE_FROM` and `REPORT_{REPORT_TYPE}_DATE_TO` values. Under no circumstances are you allowed to edit `REPORT.ini`.",
+      "skills": [
+        "research-processor"
+      ],
+      "skill": "research-processor",
+      "model": "deepseek-v4-flash",
+      "provider": "deepseek",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "13 11 * * *",
+        "display": "13 11 * * *"
+      },
+      "schedule_display": "13 11 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-29T00:55:22.508331+00:00",
+      "next_run_at": "2026-05-29T11:13:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": "/opt/data/profiles/med-research",
+      "profile": "med-research"
+    },
+    {
+      "id": "7eced5088b54",
+      "name": "Research Step 3: Draft Blog Post",
+      "prompt": "Run the `research-post-writer` skill and run it for the current `REPORT_TYPE` in /opt/data/profiles/med-research/workspace/REPORT.ini, using the corresponding `REPORT_{REPORT_TYPE}_DATE_FROM` and `REPORT_{REPORT_TYPE}_DATE_TO` values. Under no circumstances are you allowed to edit `REPORT.ini`.",
+      "skills": [
+        "research-post-writer"
+      ],
+      "skill": "research-post-writer",
+      "model": "gpt-5.5",
+      "provider": "openai-codex",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "18 11 * * *",
+        "display": "18 11 * * *"
+      },
+      "schedule_display": "18 11 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-29T00:55:23.543012+00:00",
+      "next_run_at": "2026-05-29T11:18:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": "/opt/data/profiles/med-research",
+      "profile": "med-research"
+    },
+    {
+      "id": "e461bb808afb",
+      "name": "Research Step 4: Generate Post Image",
+      "prompt": "Run the `research-post-image` skill and run it for the current `REPORT_TYPE` in /opt/data/profiles/med-research/workspace/REPORT.ini, using the corresponding `REPORT_{REPORT_TYPE}_DATE_TO` value. Under no circumstances are you allowed to edit `REPORT.ini`.",
+      "skills": [
+        "research-post-image"
+      ],
+      "skill": "research-post-image",
+      "model": "deepseek-v4-flash",
+      "provider": "deepseek",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "23 11 * * *",
+        "display": "23 11 * * *"
+      },
+      "schedule_display": "23 11 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-29T00:55:24.587267+00:00",
+      "next_run_at": "2026-05-29T11:23:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": "/opt/data/profiles/med-research",
+      "profile": "med-research"
+    },
+    {
+      "id": "b7dabdcaae52",
+      "name": "Research Step 5: Publish Post",
+      "prompt": "Run the `research-post-publish` skill and run it for the current `REPORT_TYPE` in /opt/data/profiles/med-research/workspace/REPORT.ini, using the corresponding `REPORT_{REPORT_TYPE}_DATE_TO` value. Under no circumstances are you allowed to edit `REPORT.ini`.",
+      "skills": [
+        "research-post-publish"
+      ],
+      "skill": "research-post-publish",
+      "model": "deepseek-v4-flash",
+      "provider": "deepseek",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "23 11 * * *",
+        "display": "23 11 * * *"
+      },
+      "schedule_display": "23 11 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-29T00:55:25.634348+00:00",
+      "next_run_at": "2026-05-29T11:23:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": "/opt/data/profiles/med-research",
+      "profile": "med-research"
+    },
+    {
+      "id": "04d546b75cce",
+      "name": "Research Step 0: Refresh Report Type & Dates",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "report-refresh.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "5 11 * * *",
+        "display": "5 11 * * *"
+      },
+      "schedule_display": "5 11 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-29T00:55:41.421267+00:00",
+      "next_run_at": "2026-05-29T11:05:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "discord",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": "/opt/data/profiles/med-research",
+      "profile": "med-research"
+    }
+  ],
+  "updated_at": "2026-05-29T00:58:25.123096+00:00"
+}
