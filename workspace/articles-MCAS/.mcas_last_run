@@ -1,0 +1,6 @@
+# MCAS Research Roundup — Date Range State
+# Updated: 2026-05-27
+# Next run: Compute FROM=REPORT_MCAS_DATE_TO + 1, TO=yesterday
+
+REPORT_MCAS_DATE_FROM=2026-05-26
+REPORT_MCAS_DATE_TO=2026-05-26

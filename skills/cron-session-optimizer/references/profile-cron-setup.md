@@ -87,6 +87,44 @@ To copy jobs from the default (global) scheduler to a named profile:
 4. For `no_agent` script jobs, move the script to the profile's `.hermes/scripts/` **before** creating the job
 5. Model/provider overrides from the source job should be passed in the `model` dict parameter
 
-### Duplicate Warning
+### 6. Set Workdir on Each Job
 
-The original default-profile jobs remain active after migration. The system does NOT de-duplicate. After confirming the profile jobs run correctly, consider pausing or removing the originals via `cronjob action=list` to find their IDs, then `cronjob action=remove`.
+After creating profile jobs, set `workdir` so that relative paths like `workspace/` resolve to the profile root:
+
+```
+cronjob(
+  action='update',
+  job_id='<job-id>',
+  workdir='/opt/data/profiles/<profile-name>'
+)
+```
+
+Without workdir, relative `workspace/` references in skills will not resolve to the profile's workspace directory, causing file-not-found errors.
+
+### 7. Copy REPORT.ini to Profile Workspace
+
+The default workspace at `/opt/data/workspace/` may contain a `REPORT.ini` that the profile's cron jobs need:
+
+```bash
+cp /opt/data/workspace/REPORT.ini /opt/data/profiles/<profile-name>/workspace/REPORT.ini
+```
+
+### 8. Patch Hardcoded Paths in Skills
+
+Skills may contain hardcoded absolute paths referencing the old workspace (`/opt/data/workspace/`). These must be updated to the profile workspace path (`/opt/data/profiles/<profile-name>/workspace/`) using `skill_manage(action='patch', ..., replace_all=true)`.
+
+Also check shell scripts in the profile's `.hermes/scripts/` — they often hardcode `FILE="/opt/data/workspace/REPORT.ini"` which needs updating.
+
+### 9. Patch Hardcoded Paths in Skills (Complement)
+
+Use `search_files` to find remaining stale paths:
+
+```bash
+search_files(pattern="/opt/data/workspace", path="/opt/data/profiles/<profile-name>/skills", file_glob="*.md")
+```
+
+Then patch each match with `skill_manage(action='patch', replace_all=true)`.
+
+### 10. Remove Stale Default-Profile Jobs
+
+The original default-profile jobs remain active after migration. The system does NOT de-duplicate. After confirming the profile jobs run correctly, list all jobs via `cronjob(action='list')`, identify the unpinned defaults (no `profile` field or profile != target), and remove them with `cronjob(action='remove', job_id='<id>')`.

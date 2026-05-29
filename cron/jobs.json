@@ -163,7 +163,7 @@
     {
       "id": "b7dabdcaae52",
       "name": "Research Step 5: Publish Post",
-      "prompt": "Run the `research-post-publish` skill and run it for the current `REPORT_TYPE` in /opt/data/profiles/med-research/workspace/REPORT.ini, using the corresponding `REPORT_{REPORT_TYPE}_DATE_TO` value. Under no circumstances are you allowed to edit `REPORT.ini`.",
+      "prompt": "Run the `research-post-publish` skill and run it for the current `REPORT_TYPE` in /opt/data/profiles/med-research/workspace/REPORT.ini, using the corresponding `REPORT_{REPORT_TYPE}_DATE_TO` value. Under no circumstances are you allowed to edit `REPORT.ini`. This skill converts the blog post markdown to an HTML file for manual publishing \u2014 it does not interact with any publishing platform's web UI.",
       "skills": [
         "research-post-publish"
       ],
@@ -239,5 +239,5 @@
       "profile": "med-research"
     }
   ],
-  "updated_at": "2026-05-29T00:58:25.123096+00:00"
+  "updated_at": "2026-05-29T01:16:52.551653+00:00"
 }

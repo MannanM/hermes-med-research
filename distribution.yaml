@@ -1,6 +1,6 @@
 name: hermes-med-research
-version: 1.0.0
-description: "Automated biomedical research pipeline for ME/CFS and related conditions — PubMed ingestion, plain-language summarization, treatment tracking, and editorial newsletter drafting via Hermes Agent."
+version: 2.0.0
+description: "Automated biomedical research pipeline for ME/CFS and related conditions — PubMed ingestion, plain-language summarization, treatment tracking, editorial newsletter drafting, and HTML export via Hermes Agent."
 hermes_requires: ">=0.12.0"
 author: "MannanM"
 license: "MIT"
@@ -8,7 +8,7 @@ license: "MIT"
 # Required environment variables the user must configure
 env_requires:
   - name: DEEPSEEK_API_KEY
-    description: "DeepSeek API key (for research-roundup, research-processor, research-post-image)"
+    description: "DeepSeek API key (for research-roundup, research-processor, research-post-publish, research-post-image)"
     required: true
   - name: OPEN_AI_API_KEY
     description: "OpenAI API key (for research-post-writer writing and research-post-image gpt-image-2)"
@@ -23,7 +23,7 @@ env_requires:
     description: "Default Discord channel ID for cron delivery"
     required: false
 
-# Runtime profile profile configuration
+# Runtime profile configuration
 profile:
   cron_wrap_response: true
 
@@ -39,12 +39,12 @@ exclude:
   - "image_cache/"
   - "sessions/"
   - "plans/"
-  - "bin/"
-  - "cron/output/"
-  - "auth.json"
-  - "auth.lock"
   - "pairing/"
   - "hooks/"
+  - "cron/output/"
+  - "bin/"
+  - "auth.json"
+  - "auth.lock"
   - "distribution.yaml.txt"
   - ".hermes_history"
   - ".update_check"
@@ -52,4 +52,3 @@ exclude:
   - "config.yaml.bak*"
   - "models_dev_cache.json"
   - "skills/.usage.json*"
-  - "workspace/"

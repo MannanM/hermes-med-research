@@ -79,6 +79,8 @@ These are the patterns detected during analysis, mapped to the fix that should b
 ## Procedure
 
 > **Profile-based cron setup reference:** For instructions on creating cron jobs under a named profile (including `no_agent` script job requirements, `.hermes/scripts/` setup, and migrating jobs from the default scheduler), load `skill_view(name='cron-session-optimizer', file_path='references/profile-cron-setup.md')`.
+> 
+> **Profile distribution publishing reference:** For instructions on preparing and pushing a profile to a public GitHub repo (secrets audit, tar-based file staging, distribution.yaml format, credential management), load `skill_view(name='cron-session-optimizer', file_path='references/profile-distribution-publish.md')`.
 
 ### Step 1: Identify the Target Cron Job
 

@@ -1,0 +1,93 @@
+--- PMC Full Text (6203099) ---
+
+Good quality clinical practice guidelines on diagnosis, monitoring and treatment of Ehlers-Danlos syndromes really need to optimise patient care.
+
+The systematic literature revision detected the absence of papers reporting good quality clinical practice guidelines to optimise Ehlers-Danlos syndrome patient care.
+
+A large area of unmet needs for both clinicians and patients have been identified, including correct diagnosis and classification, clinical management, medical/pharmacological management, rehabilitation care in expert centres and coordination of the multidisciplinary approach.
+
+Rare and Complex CONnective tissue and musculoskeletal diseases NETwork (ReCONNET) is the European Reference Network (ERN) funded by the European Union’s Health Program to better promote healthcare, deﬁne proper organisational assessment and identify standard and cost-eﬀective pathways for the management of rare and complex connective tissue diseases.
+
+Rare and complex connective tissue diseases comprise a large number of diseases and syndromes including hereditary (Ehlers-Danlos syndromes and related disorders), rare systemic immune-mediated diseases (recurrent polychondritis, systemic sclerosis, mixed connective tissue disease, inflammatory idiopathic myopathies, undifferentiated connective tissue diseases, antiphospholipid syndrome) and systemic autoimmune diseases characterised by a complex clinical picture (systemic lupus erythematosus, Sjögren syndrome).
+
+The Ehlers-Danlos syndromes (EDS) and related disorders include a clinically variable and genetically heterogeneous group of rare hereditary monogenic connective tissue disorders characterised by remarkable joint hypermobility, abnormal skin texture and tissue fragility (including skin fragility with abnormal scarring, vascular fragility with easy bruisability and a variable bleeding tendency) and other manifestations of generalised soft connective tissue fragility.1 Depending on the EDS subtype and the underlying genetic defect, these manifestations and their consequences may vary from almost subclinical to severely debilitating and even life-threatening diseases.
+
+In 1997, six EDS subtypes were defined, including the classical, vascular, hypermobility, kyphoscoliosis, arthrochalasia and dermatosparaxis subtype, and clinical diagnostic criteria were established for each of these subtypes (the ‘Villefranche Classification for EDS’). Most of these conditions were shown to be caused by biochemical and/or molecular defects in fibrillar collagen types I, III and V, or in their modifying enzymes.2 The advent of next generation sequencing into genetic research and diagnostics expanded the knowledge on the molecular basis of EDS and increased the number of patients with a laboratory-proven diagnosis. In March 2017, an updated International Classification of EDS and related disorders identified 13 variants with mutations in 19 distinct genes.3 It has become clear that various molecular pathways are involved in the aetiology of these disorders, as many EDS variants are caused by mutations in genes involved in collagen biogenesis and in that of other molecules of the extracellular matrix, such as tenascin-X.1 4
+
+Many patients with EDS, however, still remain without a laboratory confirmation. This is especially true for the patients with hypermobile EDS, probably the most common EDS subtype. This lack of knowledge contributes to the patients’ burden. Furthermore, many individuals with symptomatic joint hypermobility and/or features of EDS do not meet the criteria incorporated in the new EDS nosology and remain without an “identity”. However, among them subjects presenting with specific secondary musculoskeletal manifestations are now labelled with the descriptive term of “hypermobility spectrum disorders”. At present, hypermobility spectrum disorders are variable conditions “at bridge” between non-syndromic, asymptomatic joint hypermobility and the hypermobile EDS.5 Also clinical management is supported by low-evidence data.
+
+Clinical practice guidelines (CPGs) are systematically developed statements that include recommendations to assist practitioner and patient decisions about appropriate healthcare for specific clinical circumstances.6 They are informed by a systematic review of evidence and an assessment of the benefits and harms of alternative care options.7
+
+Good quality CPGs on diagnosis, monitoring and treatment of EDS really need to optimise patient care.
+
+The aim of this paper was to report the effort of the ERN ReCONNET working group on EDS to identify current available good CPGs specifically addressed to EDS, in order to identify potential clinician and patient unmet needs.
+
+The literature revision and analysis to search for CPGs was performed during the last 6 months of 2017, coordinated by a regular interaction between participants of the EDS working group, including the healthcare provider (HCP) and the ERN ReCONNET team. The work was regularly assessed and discussed during meetings (European League Against Rheumatism congress 2017, American College of Rheumatology congress 2017, ReCONNET meeting in Pisa on February 2018), web conferences, electronic letters and the ERN Collaborative Platform.
+
+We carried out a systematic search in PUBMED and EMBASE based on controlled terms (MeSH and Emtree) and keywords of the disease and publication type (CPGs). We reviewed all the published articles (English language) in order to identify existing CPGs on diagnosis, monitoring and treatment, according to the Institute of Medicine 2011 definition (CPGs are statements that include recommendations intended to optimise patient care that are informed by a systematic review of evidence and an assessment of the benefits and harms of alternative care options).
+
+The Disease Coordinator (DC) of the ERN-ReCONNET for EDS had assigned the work on CPGs to the HCPs involved. Moreover, in order to implement the list of guidelines provided by MEDLINE and EMBASE search, the group performed also a hand search. A first screening among papers included in the final list (systematic search+hand search) based on title and abstract selected evidence-based medicine guidelines. A general assessment of the CPGs has been performed following the Appraisal of Guidelines for Research & Evaluation II (AGREE II) tool checklist not for formal appraisal but only to inform discussion. A discussion group was set for the evaluation of the existing CPGs and to identify the unmet needs.
+
+MEDLINE (PUBMED): (Ehlers([All Fields] AND Danlos[All Fields)]) AND (“Practice Guideline”[Publication Type] OR “Practice Guidelines As Topic”[MeSH Terms] OR Practice Guideline[Publication Type] OR “Practice Guideline”[Text Word] OR “Practice Guidelines”[Text Word] OR “Guideline”[Publication Type] OR “Guidelines As Topic”[MeSH Terms] OR Guideline[Publication Type] OR “Guideline”[Text Word] OR “Guidelines”[Text Word] OR “Consensus Development Conference”[Publication Type] OR “Consensus Development Conferences As Topic”[MeSH Terms] OR “Consensus”[MeSH Terms] OR “Consensus”[Text Word] OR “Recommendation”[Text Word] OR “Recommendations”[Text Word] OR “Best Practice”[Text Word] OR “Best Practices”[Text Word]). EMBASE : (‘ehlers danlos’) AND (‘practice guideline’/exp OR ‘practice guideline’ OR ‘practice guidelines’/exp OR ‘practice guidelines’ OR ‘clinical practice guideline’/exp OR ‘clinical practice guideline’ OR ‘clinical practice guidelines’/exp OR ‘clinical practice guidelines’ OR ‘clinical practice guidelines as topic’/exp OR ‘clinical practice guidelines as topic’ OR ‘guideline’/exp OR ‘guideline’ OR ‘guidelines’/exp OR ‘guidelines’ OR ‘guidelines as topic’/exp OR ‘guidelines as topic’ OR ‘consensus development’/exp OR ‘consensus development’ OR ‘consensus development conference’/exp OR ‘consensus development conference’ OR ‘consensus development conferences’/exp OR ‘consensus development conferences’ OR ‘consensus development conferences as topic’/exp OR ‘consensus development conferences as topic’ OR ‘consensus’/exp OR ‘consensus’ OR ‘recommendation’ OR ‘recommendations’) AND [EMBASE ]/lim NOT [MEDLINE ]/lim.
+
+The first step of the activity was the identification of existing clinical guidelines properly addressed to EDS.
+
+The literature revision by searching key words in PUBMED, Medline and EMBASE (eg, Ehlers-Danlos, guidelines, recommendations, clinical practice, best practice, consensus, assessment, diagnosis, monitoring, treatment) identified 193 articles by title and abstract. Among these, 70 papers were selected for an accurate evaluation of their content, and only 24 articles published between 2012 and 2017 were finally chosen,3 5 8–29 and pdf files acquired, for their review in order to identify existing CPGs on diagnosis, monitoring and treatment, according to the Institute of Medicine 2011 definition (figure 1).7
+
+Flowchart of literature revision to identify current available clinical practice guidelines (CPGs) specifically addressed to Ehlers-Danlos Syndromes (EDS) on diagnosis, monitoring and treatment, according to the Institute of Medicine 2011 definition (ref. 7).
+
+The internal evaluation of the 24 articles by the ERN ReCONNET EDS network participants detected the absence of papers reporting good quality CPGs to optimise EDS patient care.
+
+Practically, the current evidence-based literature regarding clinical guidelines for the EDS was limited in size and quality, and there is insufficient research exploring the clinical features and interventions, and clinical decision-making are currently based on theoretical and limited research evidences.
+
+This is the first review providing an overview of currently available CPGs for EDS. The term EDS includes a clinically variable and genetically heterogeneous group of hereditary connective tissue disorders, represented by at least 13 different EDS subtypes. The disorders are rare, literature scarce and good quality CPGs lacking.30 According to this lack of information, a large number of unmet needs for both clinicians and patients may be identified, as follows.
+
+There is a lack of good data on prevalence, natural history, clinical features, cardiac and vascular complication risk, medical treatments, surgery and pregnancy in EDS.
+
+Web-based registries of EDS are lacking, and the real prevalence and clinical features of the disorders are difficult to estimate.
+
+Elucidation of the pathogenesis of features impacting the quality of life of the affected individuals might increase medical care.
+
+Identification of clinically reliable biomarkers could help physicians to early and properly diagnose and prognosticate the disorders. Furthermore, advanced instrumental imaging techniques should be implemented in EDS care.
+
+There is a need for medical community education and advise, also to instruct practitioners to correctly individuate potential patients with EDS or at least once suspected the diagnosis to direct the patient to the referral centres.
+
+Furthermore, at present, there is no consensus on the best practice for medical surveillance, medical intervention or for surgical intervention concerning the different EDS subtypes.
+
+Future research should focus on the elucidation of the pathogenesis of features impacting quality of life of the affected individuals, diagnosis and progression at different ages, and on the identification of clinically reliable biomarkers and targetable signalling pathways and cellular processes for possible personalised therapies. Particular attention should be put on pain, fatigue and cardiovascular complications of EDS. In addition, the development of evidence-based recommendations for the assessment and management of these disorders is critical for optimising clinician activities and improving patient health status.
+
+The EDS nosology was redefined in 2017 into 13 rare and complex hereditary connective tissue disorders with a prevalence ranging from about 1:5000 to ultra-rare where only few patients or families in the world have been identified. A 14 type was added in 2018.
+
+Although the new nosology has brought attention to EDS, patients still have trouble to find fast access to correct diagnosis and treatment. Not many physicians have been trained to recognise EDS or do not know how to treat it. In many European countries and beyond, there are no diagnostic centres or experts available to patients.
+
+Some of the rarer types can have life-threatening complications and are often only recognised when a (near) deadly event has occurred (eg, in the vascular type of EDS). As there is little or almost no educational information available for healthcare professional and patients, there are many unmet needs in this matter.
+
+Most patients with EDS suffer from generalised joint hypermobility, chronic widespread pain and fatigue. Pain treatment is complex and usually requires guidance of a specialised pain clinic and the support of an integrate rehabilitation programme. Clinical experience suggests that medical marijuana may be a successful alternative to opioids. However, in many countries in the EU, this treatment is not available.
+
+Because of the tissue fragility, conservative treatment is preferred over surgery. To improve daily life functioning, many patients need orthotics to stabilise hypermobile joints, mobility aids, aids for self care and household, etc. Unfortunately, the needs of patients are often misunderstood, because their main problems are ‘invisible’. For instance, joint hypermobility is difficult to observe, unless evaluated with specific clinical tests.
+
+At present, EDS is not curable, but only ‘treatable’. Patients presenting pain require multidisciplinary care, including pain medication, intensive physiotherapy, podiatry, psychology, occupational therapy and adequate bracing. Often a holistic or alternative approach (eg, osteopathy) is complimentary to normal treatment. Unfortunately, many treatment options are not reimbursed, even when they improve the quality of life of patients with EDS significantly.
+
+At present, a good number of patients are not taken seriously or even accused of hypochondria, Munchausen or Munchausen-by-proxy. As such, psychiatric diagnoses sometimes precede the actual diagnosis. Furthermore, psychological follow-up is sometimes needed, considering the fact that the long road to the correct diagnosis, and correct treatment of the symptoms often contributes to anxiety and depression.
+
+In conclusion, there is a long road ahead for the EDS Community. Many needs are unfulfilled, including access to care and treatment, educational therapy, professional educational programme and awareness. With a strong ERN along with patients, experts, healthcare centres and patient organisations as partners, these goals can be accomplished over time.
+
+This review shows the current lack of good quality CPGs on EDS and a large area of unmet needs for both clinicians and patients. The main critical areas include correct diagnosis and classification, clinical management, medical/pharmacological management, rehabilitation care in expert centres and coordination of the multidisciplinary approach.
+
+Possible ways to manage the unmet needs in EDS are reported in box 1.
+
+To create web-based registries to understand the real prevalence of the EDS.
+
+To elucidate risk factors and pathogenesis of clinical features impacting the quality of life.
+
+To identify clinically reliable biomarkers of the EDS. To implement advanced instrumental imaging techniques for EDS diagnosis.
+
+To identify targetable signalling pathways and cellular processes to be applied to precision medicine.
+
+To develop professional educational programmes for general practitioners, to correctly individuate potential patients with EDS and direct them to referral centers.
+
+To develop evidence-based recommendations for the assessment and management of EDS.
+
+To develop networks to let patients have a fast access to correct diagnosis and treatment, as well as a multidisciplinary care management.
+
+In September 2018, The International Symposium on the EDS in Ghent Belgium reviewed the state-of-the-art and the new research on clinical advances and the molecular and pathogenic mechanisms underlying EDS, and related syndromes were discussed attempting to reach at least some areas of the unmet needs.

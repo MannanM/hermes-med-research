@@ -4,6 +4,9 @@
 auth.json
 auth.lock
 
+# Profile home directory (user-specific settings, credential files)
+home/
+
 # Generated / runtime data
 state.db
 state.db-shm
@@ -16,7 +19,6 @@ plans/
 pairing/
 hooks/
 memories/
-workspace/
 cron/output/
 bin/
 *.bak

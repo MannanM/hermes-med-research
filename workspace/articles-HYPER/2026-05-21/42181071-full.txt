@@ -1,0 +1,140 @@
+--- PMC Full Text (PMC13195201) ---
+
+Bankart repair (BR) is commonly performed to address anterior glenohumeral joint instability refractory to nonoperative management.21,35,41,55 Although previous research has highlighted the success of BR in treating anterior shoulder instability,
+3
+ the procedure can be associated with complications.1,40 As such, it is important to identify and address factors that may lead to inferior results to optimize outcomes.3,12,23,35,40
+
+Previous research1,30,40,53 has demonstrated that BR is associated with a low overall complication rate of ~1% to 7%. A recent systematic review of 14,019 arthroscopic BRs found that the most common complications were frozen shoulder and persistent pain.
+40
+ While certain shoulder pathology has been associated with inferior outcomes,25,54 so have patient factors such as age and ethnicity.
+25
+
+As defined by the Centers for Disease Control, social determinants of health (SDOH) refer to the social, economic, environmental, educational, and health care-related conditions in which individuals live that influence health outcomes.
+8
+ Health disparities describe differences in health outcomes (eg, life expectancy, comorbidity burden) or health care utilization (eg, emergency department [ED] visits and medication burden) that are explicitly linked to these underlying determinants and disproportionately affect certain disadvantaged populations.6,28 For example, limited socioeconomic resources, reduced health literacy, or barriers to health care access may affect a patient's ability to obtain timely medical care or adhere to postoperative treatment plans.
+2
+ SDHD therefore reflect the measurable impact of differences in SDOH conditions on access to care and postoperative outcomes.
+
+SDHD is increasingly being correlated with inferior patient outcomes after many surgical procedures—including total joint arthroplasty,4,24,33 spine surgery,39,49 and rotator cuff repair.26,32 Highlighting the substantial impact of SDHD, Hood et al
+20
+ conducted a cross-sectional analysis of 3031 US counties to evaluate the association between 4 modifiable health factor categories, including socioeconomic factors, health behaviors, clinical care, and physical environment, and county-level health outcomes (measured by length of life and quality of life).
+20
+ The authors found that socioeconomic factors accounted for 47% of the explainable variation in health outcomes, compared with 16% for clinical care, illustrating the substantial influence of SDOH on population health, albeit at the county level.
+20
+
+Regarding SDHD and shoulder instability, Bokshan et al
+5
+ found that White patients and those in the highest income quartile were more likely to receive surgical treatment within 30 days of an emergency department (ED) presentation for shoulder instability. Further, Do et al
+11
+ demonstrated that patients with fewer social, economic, or educational opportunities were associated with increased time from injury to orthopaedic evaluation and increased recurrent instability risk in patients aged 10 to 19 years. Although previous research has described the impact of SDHD on other orthopaedic4,24,26,32,33,39,49 and shoulder-specific5,11 procedures, their correlation with outcomes after BR remains unexplored.
+
+As such, this study aimed to compare 90-day adverse events, health care utilization (physical therapy [PT] use, ED visits, and readmissions), and overall 90-day health care costs between patients with and without SDHD after primary BR. Secondary outcomes included 2-year complications (shoulder stiffness and subsequent ipsilateral shoulder surgery) between the study groups. The authors hypothesized that SDHD patients would be at a higher risk of complications and greater health care utilization.
+
+The present retrospective, matched-cohort study used the January 2010 through October 2022 M165 PearlDiver administrative database. This data set is a large, national, multi-insurance data set that encompasses data from 165 million patients and is well established in the shoulder literature.9,34,42,44,45,47,57 Because of the deidentified and aggregated nature of the output data, our institutional review board deemed studies using this data set exempt from review.
+
+Primary BR patients were identified using the first occurrence of the Current Procedural Terminology (CPT) code 23455 (open BR) or 29806 (arthroscopic BR). The exclusion criteria included a coded history of infection or neoplasm within 90 days before the procedure or inactivity in the database within 90 days after surgery.
+
+Patient characteristics—including age, sex, Elixhauser Comorbidity Index (ECI) (a quantitative measure of comorbidity burden29,58), and surgery type (open vs arthroscopic)—were extracted. The presence or absence of SDHD within 1 year before surgery was then identified using International Classification of Diseases, 9th revision (ICD-9) and ICD-10 diagnostic codes for environmental, health care, social, educational, and economic factors.
+
+Patients were then stratified into 2 cohorts: patients with or without SDHD before the index procedure. These groups were matched at a 1 to 4 ratio based on age, sex, ECI, and surgery type.
+
+As previously described, 90-day adverse events were identified using ICD-9 and ICD-10 coding.16,42-46,50,51,57 Adverse events were analyzed individually and in aggregated groups—including any adverse events (AAEs), serious adverse events (SAEs), or minor adverse events (MAEs).
+
+SAEs were defined as at least 1 occurrence of sepsis, venous thromboembolism (defined as deep vein thrombosis or pulmonary embolism), surgical site infection, or cardiac events (defined as myocardial infarction or cardiac arrest). MAEs were defined as at least 1 occurrence of bleeding events (defined as transfusion or hematoma), urinary tract infection, pneumonia, wound dehiscence, or acute kidney injury. AAEs were defined as at least 1 occurrence of either a severe or minor adverse event.
+
+Health care utilization metrics were then assessed (but not included in the aggregated adverse event categories). PT utilization was identified using CPT coding, as described previously.7,14,37,38 The number of unique days of PT within 90 days postoperative and the number of days from the index surgery to the first coded PT visit within 90 days postoperative were also characterized. ED visits were identified based on CPT coding. Readmissions were identified based on the “ADMISSIONS” function within the PearlDiver interface, using methods previously described.10,13,22
+
+Finally, total reimbursement within 90 days of only arthroscopic BR surgery was determined using the PearlDiver “TOTALCOST” function, which sums all health care-related reimbursements in the defined period.15,17,18,22
+
+Shoulder stiffness within 2 years of surgery was identified. This was based on ICD coding for shoulder stiffness or CPT coding for shoulder manipulation under anesthesia.
+
+Subsequent ipsilateral shoulder surgery (CPT codes provided in Appendix Table 1) within the same period was also characterized, with the laterality of the index and subsequent procedures matched to ensure ipsilateral procedures. Laterality was identified using the “LATFILTER” command in the PearlDiver interface, which separated procedure claims based on the laterality of the primary diagnosis code for each procedure.
+
+Demographic differences between the SDHD and non-SDHD cohorts were assessed with Student's t tests for continuous variables (age and ECI) or Pearson chi-square tests for categorical variables (sex, surgery type, and SDHD category).
+
+Postoperative adverse events were then compared between the study groups. Categorical variables were compared with Pearson chi-square tests. Continuous variables—including the number of days of PT, the number of days from surgery to first PT, and 90-day health care reimbursement—were compared using a Wilcoxon rank-sum test to account for non-normality.
+
+Multivariable logistic regression, controlling for patient age, sex, surgery type, and ECI, was then conducted to estimate independent odds ratios (ORs) and 95% CIs for adverse events after BR, comparing the SDHD cohort to the non-SDHD cohort.
+
+Statistical analysis was performed utilizing PearlDiver Bellwether software (PearlDiver) and GraphPad Prism 10.3.1 (GraphPad Software). Statistical significance was defined as P < .05 for all tests. To protect patient privacy, the PearlDiver software does not report the exact number of adverse events if <11 are found in the data set. As such, “<11” was specified for these specific adverse events.
+
+Overall, 142,594 primary BR patients who met study criteria were identified (Table 1). Of these, SDHD was noted for 4946 (3.5%). The SDHD cohort was older (39 ± 15.8 vs 33.2 ± 15.6; P < .0001), more often female (47.9% vs 33.5%; P < .0001), and sicker (ECI: 4.2 ± 3.4 vs 1.6 ± 2.1; P < 0001). For surgery type, approximately 95% of both cohorts underwent arthroscopic BR. Regarding SDHD, the most common disparity was economic (76%), followed by social (26.6%) and environmental (16.3%).
+
+Descriptive Characteristics of Primary Bankart Repair Patients With Versus Without a History of SDHD Within 1 Year Before Surgery
+
+
+a
+
+Data are presented as mean ± SD or n (%). Bold P values indicate statistical significance. ECI, Elixhauser Comorbidity Index; SDHD, social determinants of health disparity.
+
+A match based on age, sex, ECI, and surgical type (4:1 ratio).
+
+After a successful match, 4501 SDHD patients and 17,769 non-SDHD patients were selected. Age, sex, ECI, and surgery type were no longer statistically different between matched groups after the match. These data are shown in Table 1.
+
+Also, 90-day adverse events were compared between the matched cohorts (Table 2). There were no differences in the incidence of any individual or aggregated 90-day medical complications. PT utilization was increased for SDHD patients (51.6% vs 46.7%; P < .0001). There was no difference in the number of days of PT use, but SDHD patients took longer to reach the first PT visit (median [Q1-Q3] days: 21 [11-37] vs 20 [8-36] days; P = .0074). Finally, the SDHD cohort experienced increased ED visits (51.6% vs 46.7%; P < .0001), but not hospital readmissions within 90 days postoperative. SDHD patients also demonstrated increased overall health care reimbursement within the same period (median [Q1-Q3]: $4446 [$2357-$7812] vs $3388 [$1765-$5919]; P < .0001).
+
+Univariable Analyses of 90-Day Complications, Physical Therapy Measures, and Health Care Utilization Measures Between Matched Cohorts
+
+
+a
+
+Data are presented as n (%) or (median [Q1, Q3]). Comparisons meeting statistical significance are indicated in bold, whereas nonsignificant comparisons are indicated in gray. ED, emergency department; IQR, interquartile range; PT, physical therapy; SDHD, social determinants of health disparity.
+
+Compared using a Mann-Whitney statistical test.
+
+Shoulder stiffness defined as a diagnosis of stiffness or related procedure (manipulation under anesthesia).
+
+Multivariable logistic regression, controlled for age, sex, ECI, and surgery type, demonstrated SDHD patients were at similar odds of all analyzed medical complications. SDHD was associated with increased odds of PT utilization (odds ratio [OR], 1.22 [95% CI, 1.14-1.30]; P < .0001) and ED visits (OR, 1.29 [95% CI, 1.17-1.42]; P < .0001). These data are shown in Table 3 and Figure 1.
+
+Multivariable Analyses, Controlling for Age, Sex, ECI, and Surgical Type, of all Analyzed Complications for the Matched SDHD Cohort Compared With the non-SDHD Cohort
+
+
+a
+
+Comparisons meeting statistical significance are indicated in bold, whereas nonsignificant comparisons are indicated in gray. ED, emergency department; ECI, Elixhauser Comorbidity Index; SDHD, social determinants of health disparity.
+
+Forest plot depicting odds ratios and 95% CIs for 90-day complications, PT utilization, ED visits, and hospital readmissions after primary Bankart repair in patients with and without SDHD. Shoulder stiffness and subsequent ipsilateral shoulder surgery at 2 years postoperative are also shown. Black bars are statistically significant, whereas gray bars are not. ED, emergency department; PT, physical therapy; SDHD, social determinants of health disparity.
+
+For 2-year outcomes, SDHD patients experienced increased shoulder stiffness (13.2% vs 9.2%; P < .0001)—but not subsequent ipsilateral shoulder surgery. These data are shown in Table 2.
+
+Multivariable analysis—controlled for age, sex, ECI, and surgery type—demonstrated that SDHD patients had increased odds of shoulder stiffness (OR, 1.49 [95% CI, 1.34-1.65]; P < .0001), but not of subsequent ipsilateral shoulder surgery (Table 3 and Figure 1).
+
+The major findings of this national, matched-cohort study of patients undergoing primary BR were that patients with SDHD had comparable 90-day medical complication rates, greater postoperative health care utilization, higher 90-day costs, and increased odds of shoulder stiffness at 2 years postoperative. Specifically, patients with SDHD demonstrated higher odds of 90-day PT utilization (OR, 1.22) and ED visits (OR, 1.29), as well as greater overall 90-day health care reimbursements and increased shoulder stiffness at 2 years postoperative (OR, 1.49).
+
+The observed differences in health care utilization among patients with SDHD may reflect broader structural and social barriers that influence musculoskeletal care delivery. The present study examined a sports medicine population, which is often younger and more active than patients seeking care in other orthopaedic subspecialties. As such, particularly relevant SDHD-related factors may include limited access to outpatient resources, reduced health literacy, transportation challenges, insurance-related constraints, or even work scheduling obstacles, all of which could have led patients to miss follow-up appointments more often and to rely on acute care services. Furthermore, SDHD patients may be disproportionately affected by fragmented postoperative care coordination, which often includes surgeons, physical therapists, and primary care providers, as these individuals already face increased financial, logistical, and even emotional barriers to seeking medical treatment.
+
+Reassuringly, the present study demonstrated that SDHD patients were not at increased odds of any of the assessed individual or aggregated 90-day postoperative medical complications. These data are contrary to a previous large, administrative database study by Pearson et al
+33
+ of over 200,000 patients undergoing total knee arthroplasty that found SDHD was associated with increased 90-day medical complications and periprosthetic joint infections. Regarding SDHD in shoulder surgery, previous research in large administrative databases found that SDHD was associated with increased 90-day medical complications after total shoulder arthroplasty (TSA).27,48 However, in line with the present study, Strayer et al
+52
+ found that neighborhood socioeconomic disadvantage was not associated with medical complications or mortality in a large population of nearly 5300 veterans after elective spine surgery. While the present study suggests that SDHD may not independently increase the odds of the assessed medical complications after BR specifically, this may be due to the relatively low risk of overall complications in BR that has been previously shown1,30,40,53 to range from 1% to 7%.
+
+PT was more often utilized in the 90 days after BR by patients with SDHD. Of note, while SDHD patients showed a statistically significant, but clinically negligible, delay to their first PT visit, there was no difference in overall PT access between groups (as assessed by cumulative PT use within 90 days postoperative). Contrary to these findings, a recent systematic review by Paul et al
+32
+ found that certain socioeconomic disparities, such as non-White race and public insurance, were associated with lower PT utilization after rotator cuff repair (RCR).
+32
+ The reason for this difference is not clear. However, there is a possibility that physicians may have emphasized postoperative plans for those considered to be at risk, such as SDHD patients who underwent BR.
+
+SDHD was associated with increased 90-day postoperative ED visits after BR. In line with these data, many previous studies have demonstrated that SDHD is associated with increased postoperative health care utilization after shoulder surgery—including arthroscopic RCR32,36 and TSA.26,48 More specifically, Raso et al
+36
+ demonstrated that SDHD was associated with an increased risk of ED visits in a large, national dataset of nearly 60,000 SDHD patients matched to non-SDHD controls after RCR.
+
+Further, SDHD patients were associated with increased 90-day postoperative health care reimbursements after BR. This finding follows the study by Raso et al,
+36
+ which demonstrated that SDHD patients were associated with increased procedural and 90-day postoperative costs after RCR.
+36
+ The increased costs associated with SDHD patients may be correlated with the increased health care utilization, which could encompass PT visits, ED visits, or hospital readmission. Raso et al
+36
+ proposed that increased costs may be related to the decreased nutritional status of SDHD patients, which could lead to impaired wound healing and impaired postoperative recovery.19,31,56
+
+At 2 years postoperative, patients with SDHD were associated with higher odds of postoperative shoulder stiffness but not ipsilateral reoperation. This finding partially aligns with a study by Raso et al,
+36
+ which reported increased 1-year stiffness after RCR in patients with SDHD. However, the same study demonstrated that SDHD patients were also at increased risk of revision RCR and subsequent TSA within 1 year postoperative, which were counter to the results of the present study. These conflicting findings may be correlated with the fact that the present study utilized laterality-coded primary diagnostic codes to ensure ipsilateral index BR and subsequent shoulder surgery, which may not be the case in the Raso et al
+36
+ analysis. Nevertheless, the increased odds of shoulder stiffness are a critical finding of the present study, suggesting that, even with clinically similar PT utilization within 90 days postoperatively, the SDHD cohort experienced inferior 2-year outcomes.
+
+Overall, the present study suggests that although SDHD was not associated with increased 90-day medical complications, SDHD patients demonstrated higher postoperative ED utilization and overall health care costs. These findings suggest that targeted interventions may be warranted as SDHD may preferentially affect postoperative care pathways. Targeted interventions could include improved perioperative patient education and discharge instructions that provide explicit information on both expected postoperative symptoms and “red flag” symptoms that indicate urgent evaluation. Further, more frequent postoperative clinic appointments or the use of patient navigators during visits could also help mitigate the reliance on postoperative acute care services among patients with SDHD. These interventions may help patients who are considering outpatient versus emergency services for their symptoms and ultimately may help reduce unnecessary ED visits.
+
+The present study has limitations inherent to research using administrative databases—including possible discrepancies in the validity and accuracy of provider administrative coding. Also, the administrative database does not allow analysis of more detailed variables, such as patient- and shoulder-specific factors, or further specification of SDHD. Additionally, the SDHD cohort may have been at a lower disadvantage than all patients with SDHD, given that they successfully navigated the health care system to undergo BR. However, the present study attempted to limit these biases by selecting a large cohort of over 4500 SDHD patients and matching them to controls based on several patient factors. Finally, the indication for subsequent ipsilateral shoulder surgery could not be characterized in the present study.
+
+Our study demonstrated that SDHD patients undergoing BR experienced comparable 90-day medical complications, but greater health care utilization, higher costs, and 2-year stiffness risk. Further prospective research is warranted to elucidate effective targeted interventions that may mitigate these disparities.

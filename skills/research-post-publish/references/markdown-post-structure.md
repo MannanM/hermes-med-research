@@ -1,4 +1,4 @@
-# Research Post Publisher -- Markdown Post Structure
+# Research Post Publisher — Markdown Post Structure
 
 The research pipeline (`research-roundup` + `research-processor` + `research-post-writer`) produces `.md` files in `/opt/data/profiles/med-research/workspace/blog/` with this exact structure.
 
@@ -63,7 +63,7 @@ The post body (after the first `---`) typically contains these sections:
 ## Important Conventions
 
 - The H1 line always contains the colon-based title/subtitle split
-- The H3 line after the title is an editorial intro -- it goes in the BODY, NOT the Substack subtitle field
+- The H3 line after the title is an editorial intro -- it goes in the BODY
 - Metadata blockquotes (Date, Covered Range, Editor's Note) are always present and should be excluded from the body
 - PMID links are absolute: `https://pubmed.ncbi.nlm.nih.gov/<ID>/`
 - Internal links use relative paths: `../articles-{REPORT_TYPE}/YYYY-MM-DD/<PMID>-summary.md` -- keep them as-is in the body

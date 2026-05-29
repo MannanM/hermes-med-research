@@ -1,0 +1,132 @@
+--- PMC Full Text (PMC13187360) ---
+
+Hallux valgus (HV) is a common forefoot deformity characterized by lateral deviation of the hallux and medial deviation of the first metatarsal.
+1
+ First metatarsophalangeal joint subluxation also progresses in later stages of the deformity.
+1
+ Although descriptions of anatomic changes with the deformity are informative, the etiology of HV is still not well understood.
+
+Most studies focus on the role of the first tarsometatarsal (TMT) joint in HV, with less attention to proximal joints such as the intercuneiform (IC) and naviculocuneiform (NC) joints.2
+-7 Although first-TMT hypermobility has been implicated with diseases of the forefoot, recent weightbearing computed tomography (WBCT) studies have demonstrated differences in joint spacing and angulation at the first-TMT joint between HV patients and controls.1
+-5 Although plantar gapping at the first-TMT joint has been suggested as a cause of HV, recent studies have proposed that sagittal instability of the first-TMT joint could instead be a consequence of HV.3,5,7 This raises the possibility that proximal joints (IC, NC) contribute to deformity progression and recurrence.5,8 An understanding of all critical locations of instability related to HV is imperative for proper surgical treatment to achieve the best outcomes and eliminate sources of recurrence.
+
+Determination of severity and joint involvement in HV has traditionally been assessed using 2-dimensional measurements such as the hallux valgus and intermetatarsal angles. Even on WBCT scans, the HV deformity has typically been assessed using angular or distance measurements that are made on a single image, which may drastically change the results depending on the specific CT scan slice used.3,5 In recent years, 3-dimensional distance mapping has been used to provide a more comprehensive understanding of bone orientation and coverage.9
+-12 This semiautomated method enables qualitative and quantitative evaluation of static joint surface relationships, allowing detection of differences in joint spacing between cohorts that may reflect altered joint congruency.11,12 Prior studies have not evaluated preoperative joint spacing using WBCT-based distance mapping to investigate midfoot joint congruency, which may help to better understand the pathophysiology of the HV deformity and prevent recurrence following corrective surgery.
+
+Therefore, our objective in this pilot study was to evaluate regional differences in joint spacing across several different midfoot joints, including the first-TMT joint, the IC joint between the first and second cuneiforms (C1-C2), and the medial facet of the NC joint, between patients with symptomatic HV and controls using 3-dimensional distance mapping. We hypothesized that HV patients would have significantly increased spacing at these joints compared with controls.
+
+For the HV cohort, patients indicated for surgery for HV were retrospectively identified using a prospective institutional review board–approved registry (IRB 2013-038) of surgical foot and ankle patients after obtaining approval from the registry’s steering committee. The HV cohort was selected from the institution’s database of 126 HV feet scheduled for surgery with preoperative WBCT scans obtained between June 2017 and December 2020. The control cohort was chosen from the institution’s Total Ankle Replacement database (IRB 2020-2132), which included 340 patients with ankle arthritis who had preoperative WBCT scans between July 2018 and May 2024, primarily for patient-specific instrumentation planning. Ankle arthritis patients were selected as a pragmatic control group of patients with available WBCT scans of the foot without known underlying pathology. Patients were excluded from the control cohort if they had evidence of degenerative changes at the hallux metatarsophalangeal joint (joint space narrowing or osteophyte formation), midfoot arthritis (joint space narrowing or osteophyte formation), had previous foot surgery, or had an intermetatarsal angle (IMA) greater than 9° with a hallux valgus angle (HVA) greater than 15°.
+13
+ Twenty feet remained from the ankle arthritis database that met the inclusion and exclusion criteria. The HV patients were then matched to their control-cohort nearest neighbor based on height and sex to create an equal-sized cohort. BMI and laterality were not included in the matching process. From the HV cohort, 20 patients (12 females, 8 males) diagnosed with HV were identified and matched with 20 control patients (11 females, 9 males) with no HV deformity or arthritis (Figure 1).
+
+Flowchart describing the selection of each cohort based on inclusion and exclusion criteria from an institutional database.
+
+Images were acquired in a WBCT scanner (pedCAT; Curvebeam), where patients were standing upright with their feet shoulder width apart and weight distributed evenly. All WBCT scans were then reviewed by a board-certified orthopaedic foot and ankle surgeon, and radiographic measurements were taken. The HVA and IMA were calculated from weightbearing AP foot radiographs or digitally reconstructed radiographs from WBCT scans, as previously described.14
+-16 Pronation of the first metatarsal was measured on WBCT scans using the triplanar angle of pronation.
+4
+ Sesamoid station was also measured on the WBCT scans, as described by Kim et al.
+17
+ Finally, the angle between the base of the first metatarsal and medial cuneiform at the center of the first-TMT joint, or first-TMT joint angle, and the plantar vertical displacement of the first metatarsal base on the medial cuneiform, were calculated from WBCT scans.
+5
+ The first-TMT joint angle was positive when the opening of the angle was plantar. The first-TMT vertical distance was positive when the first metatarsal base was elevated above the medial cuneiform.
+
+Joint spacing was evaluated using 3-dimensional distance maps calculated from the WBCT scans. To calculate joint distances, the bones of the foot were first segmented for each WBCT scan using a semiautomated image analytics software (Bonelogic). Segmentations of the first metatarsal, medial cuneiform, middle cuneiform, and navicular bones were reviewed to ensure the semiautomated segmentation process fully identified each bone. To standardize the segmentations, all bones were imported into reverse engineering software (Geomagic Design X; 3D Systems) to be post-processed, where segmentations were remeshed to generate isometric faces, refined to improve the discretization of the surface mesh, and smoothed with an allowable deviation of 0.1 mm to remain within half the WBCT voxel size of 0.15 mm. Post-processing resulted in standardized 3D segmentations of bones for each subject to ensure uniformity between subjects.
+
+Following segmentation and post-processing, the articular surfaces of each joint were manually identified and defined by a single investigator. The articular surfaces were then scrutinized by a senior author, and any discrepancy was resolved through consensus. Because of the nature of the distance mapping analysis, the emphasis was to be consistent and inclusive of the articulation region to ensure identification of the minimum. Formal intraobserver and interobserver reliability testing was not performed; the predominantly automated nature of the distance mapping pipeline, in which bone coordinate systems are derived from whole-bone morphology and minimum distances are computed algorithmically, reduces observer-dependent variability in the primary outcome measure. These joint surfaces were then divided into regions to better evaluate the relationship between bones at each joint. For each joint analyzed, subject-specific bone coordinate systems were calculated using an open-source automated anatomical coordinate toolbox (Matlab; Mathworks) to quantify spacing in specific anatomic regions. The first metatarsal and medial cuneiform were used as reference bones, where the articulation reference areas were outlined and divided to define the regions of the joint surfaces of interest (first-TMT, IC, and NC joints).
+18
+ Based on the subject-specific bone coordinate systems, the first-TMT joint was divided into dorsal and plantar regions, the IC joint into distal and proximal regions, and the NC joint into medial and lateral regions. The first-TMT joint was divided into dorsal and plantar regions based on prior work demonstrating plantar gapping at the first-TMT joint.
+5
+ The C1-C2 IC joint was divided into distal and proximal regions based on previous work suggesting anterior widening of the IC joint in HV recurrence.
+8
+ The NC joint was divided into medial and lateral regions based on an earlier study that demonstrated an abduction movement of the medial cuneiform in HV patients, suggesting that changes in the axial plane at the first-TMT and C1-C2 IC joint may be compensated at the NC joint.
+16
+
+A custom script was written to calculate and visualize maps of normal joint distances of each surface (Matlab; Mathworks), where a threshold of 3 mm was defined to identify the coverage areas of the joint articulation.
+19
+ The minimum normal distance between joint surfaces was measured for each region and used for comparison between the cohorts. To ensure that matching for patient size between cohorts was sufficient, the joint reference areas were calculated for each patient.
+
+Descriptive statistics were reported as median, IQR, minimum, and maximum. Wilcoxon signed-rank tests were used to detect differences in the median minimum distances between cohorts with a Holm-Bonferroni correction for multiple comparisons. With a population SD for the minimum distance measurement of ±0.2 mm, assuming a significance level of .05 to achieve power of 80%, the minimum detectable difference for individual joint regions was 0.14 mm with matched cohorts of 20 patients. The 95% CIs of the median paired differences were computed using the Hodges-Lehmann method as part of the Wilcoxon matched pairs test. For any joint regions with significant differences in the minimum distances between the HV and control cohorts, Pearson correlation analyses were performed to analyze the relationship between the minimum distance values in these regions and 3 radiographic measures: HVA, IMA, and pronation. All analyses were performed in GraphPad Prism 11.0.
+
+The median age of patients in the HV cohort was 31 years (IQR: 24, 58), which was significantly lower than the control cohort at 61 years (IQR: 57, 65). The median paired difference in age between cohorts was 32 years (95% CI: 2-38 years, adjusted [adj.] P = .003) (Table 1). There was no significant difference in height between the cohorts, with median heights of 1.69 m (IQR: 1.62, 1.85) in control patients and 1.68 m (IQR: 1.64, 1.79) in HV patients, where the median paired difference was 0.03 m (95 CI: −0.02 to 0.08 m, adj. P ≈ 1). Similarly, the median total joint surface area did not significantly differ between the 2 cohorts (all P values > .10), suggesting comparable osseous size despite the age difference.
+
+Median and IQR Values for Age and Height for the Control and Hallux Valgus Patient Cohorts.
+a
+
+Abbreviations: BMI, body mass index; HV, hallux valgus.
+
+Boldface indicates significance (P < .05).
+
+Regarding radiographic measures, the angles clinically associated with HV were significant, whereas the remaining measures were similar between the 2 cohorts. In the HV cohort, the median HVA and IMA were 33.3° (IQR: 29.1°, 36.2°) and 14.1° (IQR: 13.1°, 17.0°), respectively (Table 2). In the control cohort, the median HVA and IMA were significantly different from those in the HV cohort at 12.2° (IQR: 10.0°, 14.0°) and 8.8° (IQR: 7.2°, 9.5°), respectively. The median paired differences in HVA and IMA were 20.4° (95% CI: 16.8°-25.1°, adj. P < .001) and 5.7° (95% CI: 4.1° to 8.6°, adj. P < .001), respectively. Additionally, patients in the HV cohort had greater sesamoid stations than those in the control cohort (adj. P < .001) (Table 3). There was no significant difference in median first metatarsal pronation between the control cohort (27.5° [IQR: 24.8°, 35.3°]) and the HV cohort (34.0° [IQR: 31.2°, 39.1°]), where the median paired difference between cohorts was 5.7° (95% CI: −0.7° to 9.0°, adj. P = .49). Similarly, there were no differences in the median first-TMT joint angle between the control cohort (0.0° [IQR: −0.6°, 0.8°]) and the HV cohort (0.7° [IQR: −0.3°, 1.6°]) (Table 3). Finally, there was no difference in the first-TMT vertical distance between the control cohort (0.0 mm [IQR: −0.7 mm, 1.3 mm]) and the HV cohort (1.2 mm [IQR: 0.5 mm, 1.9 mm]). Median paired differences for the first-TMT joint angle and vertical distance were 1.0° (95% CI: −0.7° to 1.5°, adj. P ≈ 1) and 0 mm (95% CI: −0.2 to 2.1 mm, adj. P ≈ 1), respectively.
+
+First-TMT Pronation, HVA, IMA, First-TMT Joint Angle, and TMT Joint Vertical Distance in Our Study’s HV Patient Population Compared to Controls (N = 20).
+a
+
+Abbreviations: HV, hallux valgus; HVA, hallux valgus angle; IMT, intermetatarsal; TMT, tarsometatarsal.
+
+The results demonstrate a significantly increased HVA in these HV patients compared to controls. The IMA was significantly increased in the HV patient cohort compared to controls. No differences were seen between the 2 cohorts when comparing first-TMT pronation, first-TMT joint angle, or first-TMT joint vertical distance. Boldface indicates significance (P < .05).
+
+Comparison of Sesamoid Station Between Control and Hallux Valgus Patients (N = 20).
+a
+
+Control patients demonstrated predominantly neutral sesamoid alignment (station 0), whereas HV patients exhibited progressive lateral sesamoid displacement. This distribution differed between groups (P < .001). Boldface indicates significance (P < .05).
+
+For the distance mapping analysis, the median minimum distances between joint surfaces produced statistically significant results at the proximal region of the C1-C2 IC joint and medial region of the NC joint (Tables 4-5, Figures 2-4). At the first-TMT joint, there were no significant differences in minimum joint spacing at the dorsal or plantar aspects of the joint between the HV and control patients (adj. P > .17) (Table 6). At the C1-C2 IC joint, the minimum joint surface distance in the proximal region was increased in HV patients with a median of 0.95 mm (IQR: 0.89, 1.02) for HV patients and 0.61 mm (IQR: 0.48, 0.76) for controls. The median paired difference between cohorts for the proximal IC joint was 0.24 mm (95% CI: 0.16-0.37 mm, adj. P = .006). There were no differences between the cohorts in the distal region of the C1-C2 IC joint (adj. P = .32). At the NC joint, the minimum distance at the medial aspect of the joint in HV patients was increased in HV patients with a median of 1.23 mm (IQR: 1.14, 1.36) for HV patients and 1.11 mm (IQR: 0.93, 1.24) for controls. The median paired difference for the medial NC joint was 0.2 mm (95% CI: 0.03-0.32 mm, adj. P = .007). There were no differences at the lateral aspect of the NC joint (adj. P = .53).
+
+Distance at the Articulation of the Medial Cuneiform and Middle Cuneiform Bones With Comparisons at the Proximal and Distal Regions (N = 20).
+a
+
+Boldface indicates significance (P < .05).
+
+Distance at the Articulation of the Medial Cuneiform and Navicular Bones With Comparisons at the Medial and Lateral Regions (N = 20).
+a
+
+Boldface indicates significance (P < .05).
+
+Minimum normal distances in the (A) dorsal and (B) plantar regions of the first tarsometatarsal (TMT1) joint measured within the hallux valgus (HV) and control cohorts. Example distance map is shown of the TMT1 joint represented on the medial cuneiform. No statistically significant differences in the TMT1 joint were found after adjustment for multiple comparisons between the HV and control cohorts.
+
+Minimum normal distances in the (A) proximal and (B) distal regions of the first and second cuneiform (C1-C2) intercuneiform (IC) joint measured within the hallux valgus (HV) and control cohorts. Example distance map is shown of the C1-C2 IC joint represented on the medial cuneiform. *Statistical significance after adjustment for multiple comparisons (adjusted P < .05) between the HV and control cohorts.
+
+Minimum normal distances in the (A) medial and (B) lateral regions of the naviculocuneiform (NC) joint measured within the hallux valgus (HV) and control cohorts. Example distance map is shown of the NC joint represented on the medial cuneiform. *Statistical significance after adjustment for multiple comparisons (adjusted P < .05) between the HV and control cohorts.
+
+Distance at the Articulation of the First Metatarsal and the Medial Cuneiform Bone With Comparisons of the Dorsal and Plantar Regions (N = 20).
+a
+
+Boldface indicates significance (P < .05).
+
+Although the correlation analyses were incorporated into the correction for multiple comparisons, they were performed as hypothesis-generating, as they were not the primary objective of this pilot study. With significant differences in the proximal IC joint and the medial NC joint regions, 6 Pearson correlation analyses were performed between the minimum distances and radiographic measures of HVA, IMA, and pronation. At the proximal IC joint region, there was a significant correlation between minimum distances and the HVA (r = 0.48, adj. P = .037) and IMA (r = 0.50, adj. P = .022), but no significant correlation was found with first metatarsal pronation (r = 0.32, adj. P = .52). At the medial NC joint region, there was a significant correlation between minimum distances and the HVA (r = 0.49, adj. P = .025) but no significant correlation was found between minimum distances and IMA (r = 0.35, adj. P = .38) or first metatarsal pronation (r = 0.34, adj. P = .43).
+
+This study investigated medial column joint surface interactions in HV patients using WBCT-based distance mapping, demonstrating an association between increased joint surface distances at the proximal C1-C2 IC joint and medial NC joint, suggesting involvement of these joints in the HV deformity. These findings extend prior work on the first ray by providing novel region-specific evidence of altered midfoot joint relationships.
+
+Prior studies have linked HV to first-TMT instability, although findings have been inconsistent across imaging modalities and deformity subtypes. Traditional radiographs are limited in their use in evaluating first-TMT hypermobility because results depend on the positioning of the foot and the angles captured by the scan.
+17
+ Using WBCT scans, multiple studies demonstrated that HV patients had a first-TMT angle that was approximately 1° greater than controls.3,5 However, the first-TMT angle varied based on joint morphology, with the “continuous-flat” type having a significantly greater first-TMT angle compared with the other subtypes.
+3
+ In our study, no significant difference in first-TMT angle, TMT vertical distance, or TMT 3-dimensional joint surface interactions was observed between the HV and control patients. This may reflect our small cohort, a distribution of first-TMT morphologies less prone to instability, or inclusion of patients with less severe deformity.
+
+Recent studies have demonstrated the utility of WBCT-based distance mapping for quantifying 3-dimensional structural changes in foot and ankle pathology. Distance and coverage mapping have been used to characterize regional joint space changes in hallux rigidus, providing improved insight into joint surface interactions compared with traditional radiographs.20,21 Additionally, semiautomated segmentation and distance mapping have been applied to the Lisfranc complex to establish normative joint space relationships and detect subtle instability patterns.
+22
+ This study extends this existing methodology to evaluate proximal midfoot joints in HV, demonstrating region-specific differences at the IC and NC joints.
+
+The presence of increased minimum joint space distance at the proximal C1-C2 joint and medial NC joint in HV patients compared with controls suggests that HV is associated with structural differences involving a broader segment of the medial column beyond the first-TMT joint. Although small, these increases exceeded 15% compared to controls, suggesting measurable alterations in midfoot joint relationships proximal to the first-TMT joint in HV. These differences suggest altered midfoot joint relationships in HV, although the cross-sectional design precludes determination of causality. Persistent or recurrent deformity after TMT fusion may reflect more proximal instability. Prior work has demonstrated an association between increased C1-C2 distance and postoperative HV recurrence following a modified Lapidus procedure.
+8
+ Together, these observations support the concept that midfoot joints proximal to the first TMT may be involved in the deformity, although their exact role remains incompletely understood (Figure 5). Further work is warranted to understand their contributions better.
+
+A representative graphic of the valgus alignment of the medial cuneiform and varus alignment of the first metatarsal causing widening of the medial region of the NC joint and proximal region of the IC joint.
+
+When attempting to create a cadaveric medial column instability model to replicate the HV deformity, Wagner et al
+23
+ found that sectioning the NC ligaments produced the greatest change in pronation of the medial column. Damage to the C1-C2 and first-TMT ligaments created substantially less change.
+23
+ Our results similarly suggest involvement in proximal midfoot joints, including the NC joint.
+
+Prior studies have demonstrated that loading of the foot is associated with coordinated displacement across multiple midfoot joints beyond the first TMT. Using a different measurement method, Kimura et al
+24
+ also found that loading of the foot causes displacement at other joints along the first ray in addition to the first-TMT joint. Although they found increased dorsiflexion at the first-TMT joint, they also found abduction, defined as movement of the medial cuneiform away from the medial aspect of the foot, or of the medial cuneiform at the NC joint.
+24
+ This abduction motion of the medial cuneiform is supported in our study by increased joint space distance at the medial NC joint and proximal IC joint. This may occur because of tethering of the distal aspect of the IC joint by the Lisfranc ligament running from C1 to the base of M2.
+
+This study has several limitations that warrant consideration. The relatively small sample size may have exaggerated or limited the detection of more subtle changes in the joint space and may not fully represent the heterogeneity of HV morphology. Second, control patients were selected from an ankle arthritis cohort, which because of their age and limitations in ankle motion may not represent a healthy foot population. To mitigate these concerns, we screened for midfoot and forefoot pathology. Additionally, the differences between the control and HV cohorts in terms of age may affect the results. We would expect that older ankle arthritis patients would have decreased ankle motion, leading to increased stress and further arch collapse along the medial column including increased pronation of the first ray. This likely results in increased joint space in the ankle arthritis population, and although the baseline differences present in the ankle arthritis population may contribute to differences in joint spacing, the consistent patterns seen in comparison with HV patients suggest a distinct association with the deformity. Additionally, we statistically adjusted for multiple comparisons; the estimates in differences in joint spacing between the HV and control cohorts are likely conservative. Cohorts were also matched for height to ensure that inherent differences due to patient size were mitigated. Joint surface area, an outcome of distance mapping, was used to validate that patient size did not influence the results. Lack of significance at the first-TMT joint further emphasizes persistence of differences at the IC and NC joints. This study also did not stratify the HV cohort by joint morphology or deformity severity, which may limit generalizability. Although 3D distance mapping offers a clear static assessment of joint interactions, it does not measure ligamentous integrity or dynamic instability, which could play a role in HV pathophysiology. Larger studies incorporating dynamic assessment and correlation with clinical outcomes are warranted.
+
+In these cohorts of matched patients, we found that HV patients had greater minimum joint space distances at the proximal aspect of the medial-middle IC joint and medial NC joint. With the numbers available, no significant differences could be detected at the first-TMT joint, distal aspect of the medial-middle IC joint, or lateral NC joint. This study suggests an association between increased midfoot joint spacing proximal to the first-TMT joint with HV deformity, and this broader pattern of joint involvement may be relevant to complete evaluation of the deformity. Further study is warranted to specify the relationship between these observed differences and HV, and prospective studies are necessary to determine the clinical utility of these findings in surgical planning.
+
+Supplemental material, sj-pdf-1-fao-10.1177_24730114261448837 for Increased Intercuneiform and Naviculocuneiform Joint Spacing in Hallux Valgus: A 3-Dimensional Distance Mapping Pilot Study by Brian F. Closkey, Brett D. Steineman, A. Holly Johnson, Scott J. Ellis and Matthew S. Conti in Foot & Ankle Orthopaedics
